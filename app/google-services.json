@@ -12,7 +12,20 @@
           "package_name": "com.capstone.carakamobil2"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "849544707867-8bh0b2d2c0h5hovb5steafp25aiht8kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstone.carakamobil2",
+            "certificate_hash": "b8f0cf4d531b59037f91f1d2854bc43fbd962708"
+          }
+        },
+        {
+          "client_id": "849544707867-1bmbt9lqr077pufj4f8bld16guss1huo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBkZEW2hS3qnB4CGKNowwZyyHycvctaC1Q"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849544707867-1bmbt9lqr077pufj4f8bld16guss1huo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
