@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849544707867",
+    "project_id": "carakamobile",
+    "storage_bucket": "carakamobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849544707867:android:2e20db0c326b720ba45dbe",
+        "android_client_info": {
+          "package_name": "com.capstone.carakamobil2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkZEW2hS3qnB4CGKNowwZyyHycvctaC1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
