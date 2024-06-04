@@ -75,7 +75,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:padding="8dp"
-                android:text="Already have an account? Sign in"
+                android:text="Already have an account? Sign Up"
                 android:textStyle="bold"
                 android:textColor="@color/primary"
                 android:textSize="15sp" />
