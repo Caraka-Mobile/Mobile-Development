@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.whiteboard.WhiteboardFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_toolbar"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/redColor"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/bg_red" />
+            <ImageView
+                android:id="@+id/blackColor"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/bg_black" />
+            <ImageView
+                android:id="@+id/blueColor"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/bg_blue" />
+            <ImageView
+                android:id="@+id/eraser"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/custom_bg" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolBar">
+
+            <include layout="@layout/activity_whiteboard_view"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

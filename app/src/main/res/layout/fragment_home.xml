@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wall"
+        android:alpha="0.5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="Welcome,\nMas Budi"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:fontFamily="@font/oleoscriptbold"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+        <ProgressBar
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:id="@+id/progress_bar"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:id="@+id/recycler_view"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/button_setting"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="370dp"
+        android:src="@drawable/ic_baseline_setting"
+        />
+
+</FrameLayout>

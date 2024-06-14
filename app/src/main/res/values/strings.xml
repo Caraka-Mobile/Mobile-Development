@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">carakaMobile</string>
+    <string name="default_web_client_id">849544707867-8bh0b2d2c0h5hovb5steafp25aiht8kg.apps.googleusercontent.com</string>
+    <string name="passwordText">Password</string>
+    <string name="textEmail">Email</string>
+    <string name="text_sign_in_with_google">SIGN IN WITH GOOGLE</string>
+    <string name="textSign_up">Sign Up</string>
+    <string name="already_have_an_account_sign_in">Already have an account?</string>
+    <string name="textSign_in">Sign In</string>
+    <string name="textName">Username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_Logout">Logout</string>
+</resources>
