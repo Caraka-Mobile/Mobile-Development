@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.capstone.carakamobile.databinding.ActivityHomeBinding
 import com.capstone.carakamobile.ui.about.AboutFragment
+import com.capstone.carakamobile.ui.camera.CameraFragment
 import com.capstone.carakamobile.ui.home.HomeFragment
 import com.capstone.carakamobile.ui.whiteboard.WhiteboardFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -31,6 +32,7 @@ class HomeActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.bottom_home -> fragment = HomeFragment()
                 R.id.bottom_about -> fragment = AboutFragment()
+                R.id.bottom_camera -> fragment = CameraFragment()
                 R.id.bottom_paint -> fragment = WhiteboardFragment()
             }
             if (fragment != null) {
