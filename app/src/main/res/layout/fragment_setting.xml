@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Budi Tarmiji"
-                    android:textSize="48sp"
+                    android:textSize="40sp"
                     android:textColor="@color/primary"
                     android:textAllCaps="true"
                     android:fontFamily="@font/jockeyone"

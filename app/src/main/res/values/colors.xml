@@ -4,9 +4,12 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="primary">#4B372D</color>
+    <color name="Secprimary">#6F5243</color>
     <color name="transparant">#004B372D</color>
     <color name="blue">#0008FF</color>
     <color name="red">#a83232</color>
+
+    <color name="green">#16EA1E</color>
 
     <color name="gray">#F4F4F4</color>
     <color name="orange">#FF8F00</color>

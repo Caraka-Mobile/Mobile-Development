@@ -9,7 +9,6 @@ import android.graphics.Paint
 import android.graphics.Path
 import android.view.MotionEvent
 import android.view.ViewGroup
-import androidx.constraintlayout.utils.widget.MotionTelltales
 import com.capstone.carakamobile.ui.whiteboard.WhiteboardFragment.Companion.paintBrush
 import com.capstone.carakamobile.ui.whiteboard.WhiteboardFragment.Companion.path
 
@@ -68,7 +67,7 @@ class WhiteboardView : View {
         for(i in pathList.indices){
             paintBrush.setColor(colorList[i])
             canvas.drawPath(pathList[i], paintBrush)
-            invalidate()
+            postInvalidate()
         }
     }
 }

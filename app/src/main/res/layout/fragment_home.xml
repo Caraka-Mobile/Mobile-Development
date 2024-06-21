@@ -51,10 +51,10 @@
 
     <ImageView
         android:id="@+id/button_setting"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="370dp"
+        android:layout_marginLeft="330dp"
         android:src="@drawable/ic_baseline_setting"
         />
 

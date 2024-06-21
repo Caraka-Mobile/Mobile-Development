@@ -45,7 +45,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Budi Tarmiji"
-                    android:textSize="48sp"
+                    android:textSize="40sp"
                     android:textColor="@color/primary"
                     android:textAllCaps="true"
                     android:fontFamily="@font/jockeyone"
@@ -68,8 +68,8 @@
                             android:paddingBottom="25dp">
 
                             <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
                                 android:src="@drawable/email2" />
 
                             <TableLayout
@@ -82,7 +82,7 @@
                                     android:layout_height="wrap_content"
                                     android:paddingTop="5dp"
                                     android:text="Email:"
-                                    android:textSize="25sp"
+                                    android:textSize="22sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -102,8 +102,8 @@
                             android:paddingBottom="25dp">
 
                             <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
                                 android:src="@drawable/birthday" />
 
                             <TableLayout
@@ -116,7 +116,7 @@
                                     android:layout_height="wrap_content"
                                     android:paddingTop="5dp"
                                     android:text="Birthday:"
-                                    android:textSize="25sp"
+                                    android:textSize="22sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -135,7 +135,7 @@
                             android:layout_marginBottom="25dp">
 
                             <ImageView
-                                android:layout_width="60dp"
+                                android:layout_width="50dp"
                                 android:layout_height="60dp"
                                 android:src="@drawable/phone" />
 
@@ -149,7 +149,7 @@
                                     android:layout_height="wrap_content"
                                     android:paddingTop="5dp"
                                     android:text="Phone no:"
-                                    android:textSize="25sp"
+                                    android:textSize="22sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -169,8 +169,8 @@
                             android:layout_marginBottom="25dp">
 
                             <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
                                 android:src="@drawable/date" />
 
                             <TableLayout
@@ -183,7 +183,7 @@
                                     android:layout_height="wrap_content"
                                     android:paddingTop="5dp"
                                     android:text="Member since:"
-                                    android:textSize="25sp"
+                                    android:textSize="22sp"
                                     android:textStyle="bold" />
 
                                 <TextView

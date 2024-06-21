@@ -136,21 +136,3 @@ class QuizActivity : AppCompatActivity(),View.OnClickListener {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

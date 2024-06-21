@@ -35,20 +35,56 @@
                 android:layout_height="58dp"
                 android:layout_margin="18dp"
                 android:background="@drawable/bg_blue" />
-            <ImageView
-                android:id="@+id/eraser"
-                android:layout_width="58dp"
-                android:layout_height="58dp"
-                android:layout_margin="18dp"
-                android:background="@drawable/custom_bg" />
         </LinearLayout>
 
-        <RelativeLayout
+        <com.capstone.carakamobile.ui.whiteboard.WhiteboardView
+            android:id="@+id/whiteboardView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/toolBar">
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/toolBar"
+            android:layout_above="@+id/linNav"
+            android:background="@color/white"/>
 
-            <include layout="@layout/activity_whiteboard_view"/>
-        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/linNav"
+            android:layout_marginStart="50dp">
+
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/clearBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/analyzeBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Analyze" />
+        </LinearLayout>
     </RelativeLayout>
 </FrameLayout>

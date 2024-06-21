@@ -50,8 +50,15 @@ dependencies {
     implementation("com.google.firebase:firebase-storage")
     implementation ("com.google.firebase:firebase-firestore:24.0.1")
     implementation ("org.tensorflow:tensorflow-lite-support:0.3.1")
+    implementation ("org.tensorflow:tensorflow-lite-support:0.1.0")
     implementation ("org.tensorflow:tensorflow-lite:2.5.0")
     implementation ("org.tensorflow:tensorflow-lite-metadata:0.1.0")
+
+    implementation ("com.squareup.retrofit2:retrofit:2.10.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.10.0")
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.11.0")
+
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -60,9 +67,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
     implementation(libs.firebase.database)
-//    implementation(libs.tensorflow.lite.support)
-//    implementation(libs.tensorflow.lite.metadata)
-//    implementation(libs.tensorflow.lite.gpu)
+    implementation(libs.androidx.ui.desktop)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
